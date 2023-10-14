@@ -234,7 +234,7 @@ const Dashboard = () => {
           <div className="logo flex items-center gap-[8px]">
             <img src={LOGO} alt="" className="w-[32px] block cursor-pointer" />
             <p className="font-[600] text-[25px] leading-[24px] text-white cursor-pointer">
-              Lyzer
+              Lyzerr
             </p>
           </div>
 
@@ -250,7 +250,7 @@ const Dashboard = () => {
           <div className="header flex items-center gap-[8px]">
             <img src={LOGO} alt="" className="w-[32px] block cursor-pointer" />
             <p className="font-[600] text-[25px] leading-[24px] text-white cursor-pointer">
-              Lyzer
+              Lyzerr
             </p>
           </div>
           <div className="search rounded-[8px] flex items-center gap-[8px] border border-border_pry overflow-clip px-[14px]">
