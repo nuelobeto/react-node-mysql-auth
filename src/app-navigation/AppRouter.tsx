@@ -6,6 +6,7 @@ import ResetPassword from "../pages/auth/ResetPassword";
 import AuthSuccess from "../pages/auth/AuthSuccess";
 import ProtectedRoutes from "./protectedRoutes";
 import Dashboard from "../pages/dashboard/Dashboard";
+import Error from "../pages/error_pages/Error";
 
 const AppRouter = () => {
   return (
@@ -32,6 +33,8 @@ const AppRouter = () => {
         <Route path="/support" element={<Dashboard />} />
         <Route path="/settings" element={<Dashboard />} />
       </Route>
+
+      <Route path="*" element={<Error />} />
     </Routes>
   );
 };
